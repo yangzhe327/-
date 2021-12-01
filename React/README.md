@@ -9,6 +9,6 @@
   const [state, setState] = useState(func())
   ```
   声明函数只会在第一次render的时候调用并且赋值
-    ```
+  ```
   const [state, setState] = useState(() => func())
   ```
