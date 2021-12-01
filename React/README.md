@@ -67,7 +67,7 @@ React 会按照上面的顺序依次执行这些函数，每个函数都是各�
 
 ## useEffect
   ### 1.useEffect为异步调用
-  ### 2.如果父子组件都使用了 useEffect，那么**子组件先触发，然后是父组件。**
+  ### 2.如果父子组件都使用了 useEffect，那么子组件先触发，然后是父组件。
   
 ## useLayoutEffect
   根据 React 的官方文档，useEffect() 和 useLayoutEffect() 都是等效于 componentDidUpdate() / componentDidMount() 的存在，但实际上两者在一些细节上还是有所不同：
